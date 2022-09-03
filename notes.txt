@@ -1,5 +1,5 @@
 
-Go Writing Tests / Rules
+Go Writing Tests / Test Drive Development Cycle
 
 go test  ➡️  to test code in terminal
 go mod init hello  ➡️  installs go modules
