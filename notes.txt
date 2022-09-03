@@ -1,0 +1,19 @@
+
+Go Writing Tests / Rules
+
+go test  ➡️  to test code in terminal
+go mod init hello  ➡️  installs go modules
+godoc -http :8000 ➡️  launch the docs locally ➡️ localhost:8000/pkg you will see all the packages installed on your system.
+
+Writing Tests 
+
+file name ➡️ xxx_test.go
+test function ➡️ must start with the word Test
+test function ➡️ takes one argument only t *testing.T
+import "testing"  ➡️ *testing.T type 
+Your t of type *testing.T is your "hook" into the testing framework so you can do things like t.Fail()
+
+t.Errorf 
+We are calling the Errorf method on our t which will print out a message and fail the test. The f stands for format which allows us to build a string with values inserted into the placeholder values %q. When you make the test fail it should be clear how it works.
+ 	Read more about the placeholder strings in the fmt go doc.
+%q ➡️ wraps your values in double quotes
