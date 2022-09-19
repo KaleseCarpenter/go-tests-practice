@@ -1,6 +1,8 @@
 
-Go Writing Tests / Test Drive Development Cycle
+Go Writing Tests / Test Driven Development Cycle
 
+
+Refactoring ➡️ is the process of restructuring code, while not changing its original functionality
 go test  ➡️  to test code in terminal
 go mod init hello  ➡️  installs go modules
 godoc -http :8000 ➡️  launch the docs locally ➡️ localhost:8000/pkg you will see all the packages installed on your system.
